@@ -1,0 +1,53 @@
+.Koala {
+    margin-top: 15px;
+    border-radius: 150px;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid green;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .WelcomeMessage {
+    text-align: center;
+  }
+  
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-table {
+    border: 2px solid #333;
+    border-collapse: collapse;
+    width: 50%; 
+    text-align: center;
+    font-size: 18px; 
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    border: 2px solid #333;
+    padding: 8px;
+  }
+  
+  .Title {
+    text-align: center;
+    
+  }
+  
+  @media (max-width: 800px) {
+    .image-container {
+      flex-direction: column;
+    }
+  
+    .Koala {
+      margin-top: 10px;
+    }
+  }
